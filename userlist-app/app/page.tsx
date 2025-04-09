@@ -1,9 +1,15 @@
-import Link from "next/link";
+import NavBar from "./components/NavBar";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-      <Link href="/users">Users</Link>
-    </div>
+    <>
+      <NavBar />
+      <div className="card bg-base-100">
+        <div className="card-body">
+          <h2 className="card-title">Home</h2>
+          <p>Welcome to the home page</p>
+        </div>
+      </div>
+    </>
   );
 }

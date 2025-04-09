@@ -3,7 +3,7 @@ import React from "react";
 
 function EditUser() {
   return (
-    <button onClick={() => alert("Edit Clicked")}>Edit User</button>
+    <button className="btn btn-primary" onClick={() => alert("Edit Clicked")}>Edit User</button>
   )
 }
 

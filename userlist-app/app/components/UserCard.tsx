@@ -1,11 +1,10 @@
 import React from "react";
 import EditUser from "./EditUser";
-import styles from "./UserCard.module.css";
 
 
 function UserCard() {
   return (
-    <div className={styles.card}>
+    <div className="card">
       <EditUser />
     </div>
   );

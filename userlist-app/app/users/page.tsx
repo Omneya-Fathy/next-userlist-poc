@@ -1,5 +1,6 @@
 import React from "react";
 import UserCard from "../components/UserCard";
+import NavBar from "../components/NavBar";
 
 interface User {
   id: number;
@@ -13,8 +14,8 @@ const UsersPage = async () => {
 
   return (
     <>
-      <h1>Users</h1>
-      <table >
+      <NavBar />
+      <table className="table table-bordered table-striped">
         <thead>
           <tr>
             <th>Name</th>
